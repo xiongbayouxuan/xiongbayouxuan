@@ -1,562 +1,463 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<!-- Head -->
 <head>
-<title>雄爸优选</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- jQuery (Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<!-- Custom Theme files -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- Custom Theme files -->
+<title>Home</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="雄爸优选" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--animated-css-->
-<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-<script src="js/wow.min.js"></script>
-<script>
- new WOW().init();
-</script>
-<!--/animated-css-->
-<!--script-->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<!--/script-->
-<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
-				});
-			});
-</script>
-	<link rel="stylesheet" href="css/swipebox.css">
-	<script src="js/jquery.swipebox.min.js"></script> 
-	    <script type="text/javascript">
-			jQuery(function($) {
-				$(".swipebox").swipebox();
-			});
-		</script>
+<meta charset="utf-8">
+<meta name="keywords" content="" />
+
+<!-- default css files -->
+	<link rel="stylesheet" href="static/css/bootstrap.css" type="text/css" media="all">
+	<link href="static/css/jislider.css" rel="stylesheet"> <!-- banner slider css file -->
+	<link href="static/css/simplelightbox.css" rel="stylesheet" type="text/css" /><!-- gallery css file -->
+	<link rel="stylesheet" href="static/css/font-awesome.min.css" /><!-- Font awesome css file -->
+	<link rel="stylesheet" href="static/css/style.css" type="text/css" media="all">
+<!-- default css files -->
+<!--web font-->
+<link href="static/css/37c892a054754172890ff41f87db06e9.css" rel="stylesheet">
+<link href="static/css/0a2e0253bb3f4fc4827757eb8d806a6c.css" rel="stylesheet">
+<!--//web font-->
 </head>
+<!-- Body -->
 <body>
-<!---->
-<div class="banner">
-	 <div class="container">
-		 <div class="header">	 
-			 <div class="logo wow fadeInLeft" data-wow-delay="0.5s">
-			 <a href="index.html"><img src="images/logo2.png" alt=""/></a>
-			 </div>	
-			 <div class="top-menu">
-				 <span class="menu"> </span> 
-				 <ul>
-					 <li><a class="scroll" href="#home">HOME</a></li>
-					 <li><a class="scroll" href="#brief">BRIEF</a></li>
-					 <li><a class="scroll" href="#features">TOURS</a></li>
-					 <li><a class="scroll" href="#pricing">PRICING</a></li>
-					 <li><a class="scroll" href="#screenshots">GALLERY</a></li>
-					 <li><a class="scroll" href="#testimonial">BLOG</a></li>
-					 <li><a class="scroll" href="#contact">CONTACT</a></li>
-				 </ul>
-			 </div>
-			 <div class="clearfix"> </div>
-			 </div>
-			 <!-- script-for-menu -->
-		 <script>					
-					$("span.menu").click(function(){
-						$(".top-menu ul").slideToggle("slow" , function(){
-						});
-					});
-		 </script>
-		 		 <div id="home" class="banner-text wow fadeInUp" data-wow-delay="0.5s">
-			 <h1>明智之选 <span>雄爸优选</span> 专注<label>社区团购</label></h1>
-			 <h2>Accelerator photo sharing business school drop out ramen hustle crush it revenue traction platforms. Coworking viral landing page user base.</h2>
-		 </div>
+<div class="adcenter"><script src="static/js/ggad2_728x90.js"></script></div>
+<!-- header -->
+	<div class="header-bottom">
+		<div class="container-fluid">
+			<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+					<div class="logo">
+						<h1><a class="navbar-brand" href="index.html"><span>熊爸<i class="fa fa-apple" aria-hidden="true"></i></span>优选 <p>品质之选</p></a></h1>
+					</div>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					<nav>
+						<ul class="nav navbar-nav">
+							<li class="active"><a class="scroll" href="index.html">首页</a></li>
+							<li><a href="#about" class="scroll hvr-bounce-to-bottom">关于我们</a></li>
+							<li><a href="#services" class="scroll hvr-bounce-to-bottom">服务</a></li>
+<!--							<li><a href="#gallery" class="scroll hvr-bounce-to-bottom">Gallery</a></li>-->
+							<li><a href="#contact" class="scroll hvr-bounce-to-bottom">联系我们</a></li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.navbar-collapse -->
+			</nav>
+		</div>
+	</div>
+<!-- //header -->
+
+<!-- banner slider-->
+	<div class="banner-silder">
+		<div id="JiSlider" class="jislider">
+			<ul>
+				<li>
+					<div class="w3layouts-banner-top">
+						<div class="container">
+							<div class="col-md-6 bannerimg">
+							</div>
+							<div class="col-md-6 agileits-banner-info">
+								<h3>天然新鲜的水果供应</h3>
+								<h3>质量保证</h3>
+								 <p>果园的新鲜水果</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="w3layouts-banner-top w3layouts-banner-top1">
+						<div class="container">
+							<div class="col-md-6 bannerimg1">
+							</div>
+							<div class="col-md-6 agileits-banner-info">
+								<h3>价格实惠，质量上乘</h3>
+								<h3>产品</h3>
+								 <p>果园的新鲜水果</h3>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="w3layouts-banner-top w3layouts-banner-top2">
+						<div class="container">
+							<div class="col-md-6 bannerimg2">
+							</div>
+							<div class="col-md-6 agileits-banner-info">
+								<h3>我们有各种各样的</h3>
+								<h3>产品</h3>
+								<p>果园的新鲜水果</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="w3layouts-banner-top w3layouts-banner-top3">
+						<div class="container">
+							<div class="col-md-6 bannerimg3">
+							</div>
+							<div class="col-md-6 agileits-banner-info">
+								<h3>我们种植和销售有机食品</h3>
+								<h3>采集</h3>
+								 <p>果园的新鲜水果</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+    </div>
+<!-- //banner slider -->
+
+<!--/about-->
+<div class="about" id="about">
+	<div class="container">
+		<h2 class="heading">关于我们</h2>
+		<div class="col-md-7 aboutleft">
+			<h3>昆山熊爸优选电子商务中心（简称熊爸优选）</h3>
+			<p>熊爸优选注册地为江苏省苏州市昆山市花桥镇，是一家关注民生的互联网“新零售”平台，平台定位主要是解决家庭消费者的日常需求，提供包括蔬菜水果，肉禽水产，米面粮油，日用百货等全品类精选商品。依托社区实体快递站点，通过“预售+自提|送货上门”的模式为用户提供服务。 </p>
+		</div>
+		<div class="col-md-5 aboutright">
+			<div class="sreen-gallery-cursual">
+				<div id="owl-demo" class="owl-carousel">
+					<div class="item-owl">
+					    <div class="test-review">
+							<div class="img-agile">
+								<img src="static/picture/apple.png" class="img-responsive" alt=""/>
+							</div>
+					    </div>
+					</div>
+					<div class="item-owl">
+					    <div class="test-review">
+							<div class="img-agile">
+								<img src="static/picture/banana.png" class="img-responsive" alt=""/>
+							</div>
+						</div>
+					</div>
+					<div class="item-owl">
+					    <div class="test-review">
+							<div class="img-agile">
+								<img src="static/picture/lemon.png" class="img-responsive" alt=""/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
 	</div>
 </div>
-<div id="brief" class="brief">
-	 <div class="container">
-	 	<h4>BRIEF</h4>
-		 <div class="col-md-6 brief-grids wow fadeInLeft" data-wow-delay="0.5s">
-			 <img src="images/browse.jpg" alt=""/>
-			 <div class="brief-grid">
-				 <div class="brief-grid-text">
-					 <h3>Trip the awesomeness</h3>
-					 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-					 quis nostrud exercitation ullamco laboris nisi ut.</p>
-				 </div>
-				 <div class="brief-grid-content1">
-					 <h3>yugoslavia City</h3>
-					 <p>Lorem lean startup ipsum product market fit customer development 
-						acquihire technical cofounder.</p>
-				 </div>
-				 <div class="brief-grid-content2">
-					 <h3>Donec et justo tincidunt</h3>
-					 <p>Lorem lean startup ipsum product market fit customer development 
-						acquihire technical cofounder.</p>
-				 </div>
-			 </div>
-		 </div>
-		 <div class="col-md-6 brief-grids wow fadeInRight" data-wow-delay="0.5s">
-			 <img src="images/browse2.jpg" alt=""/>
-			 <div class="brief-grid">
-				 <div class="brief-grid-text">
-					 <h3>Describe more about Trip</h3>
-					 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-					 quis nostrud exercitation ullamco laboris nisi ut.</p>
-				 </div>
-				 <div class="brief-grid-content1 good">
-					 <h3>We Think Globally</h3>
-					 <p>Lorem lean startup ipsum product market fit customer development 
-						acquihire technical cofounder.</p>
-				 </div>
-				 <div class="brief-grid-content2 video-bac">
-					 <h3>Etiam interdum nisi ligula</h3>
-					 <p>Lorem lean startup ipsum product market fit customer development 
-						acquihire technical cofounder.</p>
-				 </div>
-			 </div>
-		 </div>
-		 <div class="clearfix"> </div>		 
-	 </div>
-</div>
-<!---->
-<div id="features" class="features">
-	 <div class="container">
-		 <div class="feature-text text-center">
-			 <h3>TOURS</h3>
-			 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-		 </div>
-		 <div class="features-section">
-			 <div class="col-md-6 feature-grid text-center">
-			 <i class="f1"> </i>
-			 <h3>Trip Navigator</h3>
-			 <p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement.
-			 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			 </div>
-			 <div class="col-md-6 feature-grid text-center">
-			 <i class="f2"> </i>
-			 <h3>Trip Tool Box</h3>
-			 <p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement.
-			 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			 </div>
-			 <div class="clearfix"> </div>
-			 <div class="col-md-6 feature-grid text-center">
-			 <i class="f3"> </i>
-			 <h3>Trip Status</h3>
-			 <p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement.
-			 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			 </div>
-			 <div class="col-md-6 feature-grid text-center">
-			 <i class="f4"> </i>
-			 <h3>Trip Valid</h3>
-			 <p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement.
-			 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			 </div>
-		 </div>
-	 </div>
-</div>
-<!---->
-<div id="pricing" class="pricing">
-	 <div class="container">
-		 <div class="pricing-text text-center">
-			 <h3>Trip Pricing & Plans</h3>
-			 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-		 </div>
-		 <div class="pricing-section">
-			 <div class="col-md-4 pricing-grid wow fadeInUp" data-wow-delay="0.5s">
-				 <div class="pricing-top text-center">
-					 <h3>Basic</h3>
-					 <p>From <span>$10</span> per month</p>
-				 </div>
-				 <div class="pricing-offer">
-					 <ul>
-						<li class="whyt"><a href="#">50GB Disk Space </a></li>
-						<li><a href="#">10 Domain Names</a></li>
-						<li class="whyt"><a href="#">10 E-Mail Address </a></li>
-						<li><a href="#">300GB Monthly Bandwidth </a></li>
-						<li class="whyt"><a href="#">Fully Support</a></li>
-				     </ul>
-					 <div class="sign text-center">
-						<a class="popup-with-zoom-anim" href="#small-dialog">BUY</a>
-					 </div>
-				 </div>
-			 </div>
-			 <div class="col-md-4 pricing-grid wow fadeInDown" data-wow-delay="0.5s">
-				 <div class="pricing-top text-center">
-					 <h3>Standard</h3>
-					 <p>From <span>$99</span> per month</p>
-				 </div>
-				 <div class="pricing-offer">
-					 <ul>
-						<li class="whyt"><a href="#">150GB Disk Space </a></li>
-						<li><a href="#">100 Domain Names</a></li>
-						<li class="whyt"><a href="#">20 E-Mail Address </a></li>
-						<li><a href="#">500GB Monthly Bandwidth </a></li>
-						<li class="whyt"><a href="#">Fully Support</a></li>
-				     </ul>
-					 <div class="sign text-center">
-						 <a class="popup-with-zoom-anim" href="#small-dialog">BUY</a>
-					 </div>
-				 </div>
-			 </div>
-			 <div class="col-md-4 pricing-grid wow fadeInUp" data-wow-delay="0.5s">
-				 <div class="pricing-top text-center">
-					 <h3>Golden</h3>
-					 <p>From <span>$150</span> per month</p>
-				 </div>
-				 <div class="pricing-offer">
-					 <ul>
-						<li class="whyt"><a href="#">1TB(Unlimited)</a></li>
-						<li><a href="#">500 Domain Names</a></li>
-						<li class="whyt"><a href="#">20 E-Mail Address </a></li>
-						<li><a href="#">1TB Monthly Bandwidth </a></li>
-						<li class="whyt"><a href="#">Fully Support</a></li>
-				     </ul>
-					 <div class="sign text-center">
-						 <a class="popup-with-zoom-anim" href="#small-dialog">BUY</a>
-					 </div>
-				 </div>
-			 </div>
-			 <div class="clearfix"> </div>
-		 </div>
-		 <!--pop-up-grid-->
-		 <script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-		<script type="text/javascript" src="js/modernizr.custom.53451.js"></script> 
+<!--//about-->
 
- <script>
-						$(document).ready(function() {
-						$('.popup-with-zoom-anim').magnificPopup({
-							type: 'inline',
-							fixedContentPos: false,
-							fixedBgPos: true,
-							overflowY: 'auto',
-							closeBtnInside: true,
-							preloader: false,
-							midClick: true,
-							removalDelay: 300,
-							mainClass: 'my-mfp-zoom-in'
-						});
-																						
-						});
-				</script>
-								 <div id="small-dialog" class="mfp-hide">
-									<div class="pop_up">
-									 	<div class="payment-online-form-left">
-											<form>
-												<h4><span class="shipping"> </span>Shipping</h4>
-												<ul>
-													<li><input class="text-box-dark" type="text" value="Frist Name" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Frist Name';}"></li>
-													<li><input class="text-box-dark" type="text" value="Last Name" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Last Name';}"></li>
-												</ul>
-												<ul>
-													<li><input class="text-box-dark" type="text" value="Email" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Email';}"></li>
-													<li><input class="text-box-dark" type="text" value="Company Name" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Company Name';}"></li>
-												</ul>
-												<ul>
-													<li><input class="text-box-dark" type="text" value="Phone" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Phone';}"></li>
-													<li><input class="text-box-dark" type="text" value="Address" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Address';}"></li>
-													<div class="clear"> </div>
-												</ul>
-												<div class="clear"> </div>
-											<ul class="payment-type">
-												<h4><span class="payment"> </span> Payments</h4>
-												<li><span class="col_checkbox">
-													<input id="3" class="css-checkbox1" type="checkbox">
-													<label for="3" name="demo_lbl_1" class="css-label1"> </label>
-													<a class="visa" href="#"> </a>
-													</span>												
-												</li>
-												<li>
-													<span class="col_checkbox">
-														<input id="4" class="css-checkbox2" type="checkbox">
-														<label for="4" name="demo_lbl_2" class="css-label2"> </label>
-														<a class="paypal" href="#"> </a>
-													</span>
-												</li>
-												<div class="clear"> </div>
-											</ul>
-												<ul>
-													<li><input class="text-box-dark" type="text" value="Card Number" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Card Number';}"></li>
-													<li><input class="text-box-dark" type="text" value="Name on card" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Name on card';}"></li>
-													<div class="clear"> </div>
-												</ul>
-												<ul>
-													<li><input class="text-box-light hasDatepicker" type="text" id="datepicker" value="Expiration Date" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Expiration Date';}"><em class="pay-date"> </em></li>
-													<li><input class="text-box-dark" type="text" value="Security Code" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Security Code';}"></li>
-													<div class="clear"> </div>
-												</ul>
-												<ul class="payment-sendbtns">
-													<li><input type="reset" value="Reset"></li>
-													<li><a href="#" class="order">Process order</a></li>
-												</ul>
-												<div class="clear"> </div>
-											</form>
-										</div>
-						  			</div>
+<!-- services section -->
+<section class="service-w3ls" id="services">
+	<div class="container">
+		<h3 class="heading">我们的服务</h3>
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 serv-w3layouts">
+			<div class="ch-grid slideanim">
+				<div>
+					<div class="ch-item ch-img-1">
+						<div class="ch-info">
+							<h3>我们新鲜的水果</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h4 class="slideanim">100%纯有机水果</h4>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 serv-w3layouts">
+			<div class="ch-grid slideanim">
+				<div>
+					<div class="ch-item ch-img-2">
+						<div class="ch-info">
+							<h3>价格实惠</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h4 class="slideanim">种植健康的水果</h4>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 serv-w3layouts">
+			<div class="ch-grid slideanim">
+				<div>
+					<div class="ch-item ch-img-3">
+						<div class="ch-info">
+							<h3>当季水果</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h4 class="slideanim">价格实惠</h4>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 serv-w3layouts">
+			<div class="ch-grid slideanim">
+				<div>
+					<div class="ch-item ch-img-4">
+						<div class="ch-info">
+							<h3>Unseasonal Fruits</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h4 class="slideanim">经验丰富的果农</h4>
+		</div>
+		<div class="clearfix"></div>
+		
+		<div class="service-bottomgrids">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 serv-w3layouts">
+				<div class="ch-grid slideanim">
+					<div>
+						<div class="ch-item ch-img-5">
+							<div class="ch-info">
+								<h3>Growing and selling</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h4 class="slideanim">品质保证</h4>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 serv-w3layouts">
+				<div class="ch-grid slideanim">
+					<div>
+						<div class="ch-item ch-img-6">
+							<div class="ch-info">
+								<h3>Wide range of Fruits</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h4 class="slideanim">无化学用品</h4>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 serv-w3layouts">
+				<div class="ch-grid slideanim">
+					<div>
+						<div class="ch-item ch-img-7">
+							<div class="ch-info">
+								<h3>Organic Food</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h4 class="slideanim">从事多年</h4>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 serv-w3layouts">
+				<div class="ch-grid slideanim">
+					<div>
+						<div class="ch-item ch-img-8">
+							<div class="ch-info">
+								<h3>wide range of Berries</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h4 class="slideanim">提供多种水果</h4>
+			</div>
+		<div class="clearfix"></div>
+		</div>
+	</div>
+</section>
+
+<!-- clients-->
+	<div class="clients" id="clients">
+		<div class="container">
+			<h3 class="heading">客户评价</h3>
+			<div class="wmuSlider example1 animated wow slideInUp" data-wow-delay=".5s">
+					<div class="wmuSliderWrapper">
+						<article style="position: absolute; width: 100%; opacity: 0;"> 
+							<div class="banner-wrap">
+								<div class="col-md-6 client-grids">
+									<p>真心不错，品质很好口感地道。和我在本地吃的一样的好吃。独特的味道喜欢，值得购买。</p>
+									<div class="col-md-3 c-img">
+										<img src="static/picture/c1.jpg" alt="" />
+									</div>
+									<div class="col-md-3 c-info">
+										<h4>张女士</h4>
+										<h5>上班族</h5>
+									</div>
+									<div class="clearfix"></div>
 								</div>
-								<!--pop-up-grid-->
-	 </div>
-</div>
-<div id="screenshots" class="screenshots">
-	 <div class="container">
-		 <div class="screen-text text-center">
-			 <h3>GALLERY</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-		 </div>
-		 <!-- requried-jsfiles-for owl -->
-				<link href="css/owl.carousel.css" rel="stylesheet">
-							    <script src="js/owl.carousel.js"></script>
-							        <script>
-							    $(document).ready(function() {
-							      $("#owl-demo").owlCarousel({
-							        items : 1,
-							        lazyLoad : true,
-							        autoPlay : true,
-							        navigation : false,
-							        navigationText :  false,
-							        pagination : true,
-							      });
-							    });
-							    </script>
-			<!-- //requried-jsfiles-for owl -->
-		  <div id="owl-demo" class="owl-carousel">
-			  <div class="item text-center guide-sliders">
-				 <div class="col-md-4 image-grid">
-				 	<div class="portfolio-wrapper">		
-						<a href="images/sc1.JPG" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
-							<img src="images/sc1.JPG"></a>
-			         </div>			 
-				 </div>
-				 <div class="col-md-4 image-grid">
-				 	<div class="portfolio-wrapper">	
-				 		<a href="images/sc2.JPG" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
-						 <img src="images/sc2.JPG"></a>		
-					 </div>			 
-				 </div>
-				 <div class="col-md-4 image-grid">
-					 <div class="portfolio-wrapper">	
-				 		<a href="images/sc3.JPG" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
-						 <img src="images/sc3.JPG"></a>		
-					 </div>					 
-				 </div>				   
-			  </div>			  
-			  <div class="item text-center guide-sliders">
-				 <div class="col-md-4 image-grid">
-						<div class="portfolio-wrapper">	
-				 		<a href="images/sc4.JPG" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
-						 <img src="images/sc4.JPG"></a>		
-					 </div>					 
-				 </div>
-				 <div class="col-md-4 image-grid">
-					 <div class="portfolio-wrapper">	
-				 		<a href="images/sc5.JPG" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
-						 <img src="images/sc5.JPG"></a>		
-					 </div>					 
-				 </div>
-				 <div class="col-md-4 image-grid">
-					 <div class="portfolio-wrapper">	
-				 		<a href="images/sc1.JPG" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
-						 <img src="images/sc1.JPG"></a>		
-					 </div>					 
-				 </div>						
-			  </div>
-			  <div class="item text-center guide-sliders">
-				 <div class="col-md-4 image-grid">
-					 <div class="portfolio-wrapper">	
-				 		<a href="images/sc5.JPG" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
-						 <img src="images/sc5.JPG"></a>		
-					 </div>					 
-				 </div>
-				 <div class="col-md-4 image-grid">
-					 <div class="portfolio-wrapper">	
-				 		<a href="images/sc4.JPG" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
-						 <img src="images/sc4.JPG"></a>		
-					 </div>					 
-				 </div>
-				 <div class="col-md-4 image-grid">
-					<div class="portfolio-wrapper">	
-				 		<a href="images/sc2.JPG" class="b-link-stripe b-animate-go   swipebox"  title="Image Title">
-						 <img src="images/sc2.JPG"></a>		
-					 </div>					 
-				 </div>						
-			  </div>
-			  
-		  </div>
-	 </div>
-</div>
-<!---->
-<div id="testimonial" class="trusted">
-	 <div class="container">
-		 <div class="trusted-text text-center">
-			 <h3>BLOG</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-		 </div>
-		 <div class="sponcer">
-			 <ul id="flexiselDemo1">
-				<li>
-					<div class="biseller-column">
-					<a href="single.html"><img src="images/sld1.png" alt=""></a>
+								<div class="col-md-6 client-grids">
+									<p>水果质量好，甜甜的。下次还要购买。</p>
+									<div class="col-md-3 c-img">
+										<img src="static/picture/c2.jpg" alt="" />
+									</div>
+									<div class="col-md-3 c-info">
+										<h4>李女士</h4>
+										<h5>宝妈</h5>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</article>
+						<article style="position: absolute; width: 100%; opacity: 0;"> 
+							<div class="banner-wrap">
+								<div class="col-md-6 client-grids">
+									<p>瓜超甜，比平常买的好吃多了，看着剧吃着吃着就没了，下次我在回购。</p>
+									<div class="col-md-3 c-img">
+										<img src="static/picture/c3.jpg" alt="" />
+									</div>
+									<div class="col-md-3 c-info">
+										<h4>王女士</h4>
+										<h5>学生</h5>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="col-md-6 client-grids">
+									<p>很好吃，实物和图片一模一样，瓜的汁水很足也很甜本来试着买点来吃，没想到给了我一个惊喜，下次一定再来这里购买！！！</p>
+									<div class="col-md-3 c-img">
+										<img src="static/picture/c4.jpg" alt="" />
+									</div>
+									<div class="col-md-3 c-info">
+										<h4>房女士</h4>
+										<h5>自由职业</h5>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+									<div class="clearfix"></div>
+							</div>
+						</article>
 					</div>
-				</li>
-				<li>
-					<div class="biseller-column">
-					<a href="single.html"><img src="images/sld2.png" alt=""></a>
-					</div>
-				</li>
-				<li>
-					<div class="biseller-column">
-					<a href="single.html"><img src="images/sld3.png" alt=""></a>
-					</div>
-				</li>
-				<li>
-					<div class="biseller-column">
-					<a href="single.html"><img src="images/sld4.png" alt=""></a>
-					</div>
-				</li>
-				<li>
-					<div class="biseller-column">
-					<a href="single.html"><img src="images/sld1.png" alt=""></a>
-					</div>
-				</li>
-				<li>
-					<div class="biseller-column">
-					<a href="single.html"><img src="images/sld3.png" alt=""></a>
-					</div>
-				</li>
-				<li>
-					<div class="biseller-column">
-					<a href="single.html"><img src="images/sld4.png" alt=""></a>
-					</div>
-				</li>
-				<li>
-					<div class="biseller-column">
-					<a href="single.html"><img src="images/sld2.png" alt=""></a>
-					</div>
-				</li>
-			 </ul>
-			 <script type="text/javascript">
-			 $(window).load(function() {
-				$("#flexiselDemo1").flexisel({
-					visibleItems: 4,
-					animationSpeed: 1000,
-					autoPlay: true,
-					autoPlaySpeed: 3000,    		
-					pauseOnHover: true,
-					enableResponsiveBreakpoints: true,
-					responsiveBreakpoints: { 
-						portrait: { 
-							changePoint:480,
-							visibleItems: 1
-						}, 
-						landscape: { 
-							changePoint:640,
-							visibleItems: 2
-						},
-						tablet: { 
-							changePoint:768,
-							visibleItems: 3
-						}
-					}
-				});
-				
-			 });
-			   </script>
-			   <script type="text/javascript" src="js/jquery.flexisel.js"></script>	
-	     </div>
-		  <div class="box-grids">
-				 <div class="col-md-4 client wow fadeInLeft" data-wow-delay="0.5s">
-					 <div class="box-grid">
-					 <span> </span>
-					 <p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement A/B testing shrink a market venture capital pitch deck. 
-					 Social bookmarking group buying crowded market pivot onboarding.</p>
-					 <label> </label>
-					 </div>
-					 <h4><a href="single.html">Market Diaz</a></h4>
-					 <p class="ceo">Abz Network</p>
-				 </div>
-				 <div class="col-md-4 client  wow fadeInUp" data-wow-delay="0.5s">
-					 <div class="box-grid">
-					 <span> </span>
-					 <p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement A/B testing shrink a market venture capital pitch deck. 
-					 Social bookmarking group buying crowded market pivot onboarding.</p>
-					 <label> </label>
-					 </div>
-					 <h4><a href="single.html">Market Diaz</a></h4>
-					 <p class="ceo">Abz Network</p>
-				 </div>
-				 <div class="col-md-4 client wow fadeInRight" data-wow-delay="0.5s">
-					 <div class="box-grid">
-					 <span> </span>
-					 <p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement A/B testing shrink a market venture capital pitch deck. 
-					 Social bookmarking group buying crowded market pivot onboarding.</p>
-					 <label> </label>
-					 </div>	
-						<h4><a href="single.html">Market Diaz</a></h4>
-					 <p class="ceo">Abz Network</p>
-				 </div>
-				 <div class="clearfix"> </div>
-		  </div>
+				</div>
+		</div>
+	</div>
+<!--//clients-->
+
+<div class="subscribe">
+	<div class="container">
+		<h3 class="heading">人才招聘，供应商入驻和门店入驻</h3>
+<!--		<div class="subscribe-grid">-->
+<!--		</div>-->
 	</div>
 </div>
-<!---->
-<div class="get-started">
-	 <div class="container">
-		 <h4 class="wow bounceInLeft" data-wow-delay="0.5s">We Ready  to Help You</h4>
-		 <h3 class="wow bounceInRight" data-wow-delay="0.5s">Get the Best Solution for Your Business</h3>
-		 <a href="#">GET STARTED</a>
-	 </div>
+<!-- contact -->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="col-md-6 contactleft">
+<!--			<h3 class="heading">人才招聘，供应商入驻和门店入驻</h3>-->
+			<h4>地址</h4>
+			<i class="fa fa-map-marker" aria-hidden="true"></i>
+			<p>江苏省苏州市昆山市花桥镇中科创新广场3棟B座724室</p>
+			<i class="fa fa-phone" aria-hidden="true"></i>
+			<p>手机/微信 : +(86) 18800352010</p>
+			<p>联系人 : 熊爸</p>
+			<i class="fa fa-envelope" aria-hidden="true"></i>
+			<p><a href="mailto:243962345@qq.com">243962345@qq.com</a></p>
+		</div>
+		<div class="col-md-6 contactright">
+			<iframe src=""></iframe>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
 </div>
-<!---->
-<div id="contact" class="contact">
-	 <div class="container">
-		 <div class="contact-text text-center">
-			 <h3>contact</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-		 </div>
-		  <div class="contact-form">
-				<form>
-					<div class="col-md-6 text-box">
-						<input class="wow fadeInLeft" data-wow-delay="0.5s" type="text" placeholder="Name" />
-						<input class="wow fadeInLeft" data-wow-delay="0.5s" type="text" placeholder="Email" />
-						<input class="wow fadeInLeft" data-wow-delay="0.5s" type="text" placeholder="Subject" />
-				    </div>
-					 <div class="col-md-6 textarea">
-							<textarea class="wow fadeInRight" data-wow-delay="0.5s">Message</textarea>
-							<input class="wow fadeInRight" data-wow-delay="0.5s" type="submit" value="SUBMIT" />
-					  </div>
-					  <div class="clearfix"> </div>					  
-			  </form>
-		  </div>
-	 </div>	  
-</div>
-<!---->
-<div class="footer">
-	 <div class="container">
-		 <div class="ftr-logo">
-			 <a class="wow bounceIn" data-wow-delay="0.5s" href="index.html"><img src="images/logo2.png" alt=""/></a>
-		 </div>
-		 <div class="copy-right wow bounceInUp" data-wow-delay="0.5s">
-			 <p>Copyright © 2020 昆山雄爸优选电子商务有限公司. All rights reserved. </p>
-		 </div>
+<!-- //contact -->
 
-	 </div>
+<!-- footer -->
+<div class="footer">
+	<div class="container">
+		<div class="col-md-12 copyright">
+			<p>Copyright &copy; 2020.Company name All rights reserved. - 版权所有 <a href="http://xbyx.store/" title="熊爸优选" target="_blank">熊爸优选</a></p>
+		</div>
+	</div>
 </div>
-<!---->
+<!-- //footer -->
+
+<!-- bootstrap-pop-up -->
+<!-- //bootstrap-pop-up -->
+
+<!-- Default-JavaScript-File -->
+	<script type="text/javascript" src="static/js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="static/js/bootstrap.js"></script>
+<!-- //Default-JavaScript-File -->
+
+<!-- Banner Slider js script file-->
+<script src="static/js/jislider.js"></script>
+<script>
+			$(window).load(function () {
+				$('#JiSlider').JiSlider({color: '#fff', start: 3, reverse: false}).addClass('ff')
+			})
+		</script>
+<!-- //Banner Slider js script file-->
+
+<!-- required-js-files-->
+<link href="static/css/owl.carousel.css" rel="stylesheet">
+	<script src="static/js/owl.carousel.js"></script>
+		<script>
+			$(document).ready(function() {
+				$("#owl-demo").owlCarousel({
+					items : 1,
+					lazyLoad : true,
+					autoPlay : true,
+					navigation : false,
+					navigationText :  false,
+					pagination : true,
+				});
+			});
+		 </script>
+<!--//required-js-files-->
+
+<!-- Light box js-file-->
+	<script src="static/js/simplelightbox.js"></script>
+	<script>
+		$('.w3layouts_gallery_grid a').simpleLightbox();
+	</script>
+<!-- //Light box js-file-->
+
+<!-- clients js file-->
+<script src="static/js/jquery.wmuslider.js"></script>
+	<script>
+		$('.example1').wmuSlider();         
+	</script> 
+<!-- //clients js file -->
+
+<!-- scrolling script -->
 <script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!-- //scrolling script -->
+
+<!-- Stars scrolling script -->
+	<script src="static/js/smoothscroll.min.js"></script>
+	<script type="text/javascript" src="static/js/move-top.js"></script>
+	<script type="text/javascript" src="static/js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
 		$(document).ready(function() {
-				/*
+			/*
 				var defaults = {
 				containerID: 'toTop', // fading element id
 				containerHoverID: 'toTopHover', // fading element hover id
 				scrollSpeed: 1200,
 				easingType: 'linear' 
 				};
-				*/
-		$().UItoTop({ easingType: 'easeOutQuart' });
-});
-</script>
-<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-<!----> 
- </body>
- </html>
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+<!-- //Ends scrolling script -->
+
+</body>
+<!-- //Body -->
+</html>
